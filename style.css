@@ -46,7 +46,7 @@ h1{
 }
 .bgimg{
 background-image: url("img/Newbanner.jpg");
-height: 600px;
+height: 700px;
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -55,7 +55,7 @@ width: 100%;
 
 }
 .mrgform{
-  padding-top: 200px!important;
-  height: 600px!important;
+  padding-top: 120px!important;
+  height: 80px!important;
 
 }
