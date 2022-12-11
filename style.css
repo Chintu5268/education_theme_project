@@ -1,0 +1,61 @@
+.bg-img{
+background-image: url("img/banner5.avif");
+height: 708px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+filter: opacity(1);
+
+}
+
+
+.mg{
+  margin-top: 65px !important;
+}
+.hover:hover{
+  color: orange!important;
+}
+.fsm-1{
+  font-size: 50px !important;
+}
+.btn-lg{
+  border-radius: 0!important;
+  
+
+}
+.mybtn:hover{
+  background-color: white !important;
+  color: orange !important;
+  border:none !important;
+}
+.mtt{
+  margin-top: 85px!important;
+}
+
+.text-decoration-none:hover{
+  
+color:orange !important;
+ 
+}
+.text-dark{
+  color: black!important;
+}
+h1{
+  margin-top: 150px!important;
+  text-align:center ;
+}
+.bgimg{
+background-image: url("img/Newbanner.jpg");
+height: 600px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+filter: opacity(0.9);
+width: 100%;
+
+}
+.mrgform{
+  padding-top: 200px!important;
+  height: 600px!important;
+
+}
