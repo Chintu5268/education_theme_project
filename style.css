@@ -8,7 +8,9 @@ filter: opacity(1);
 
 }
 
-
+.dark:hover{
+  background-color: #f7631b !important;
+}
 .mg{
   margin-top: 65px !important;
 }
@@ -59,3 +61,72 @@ width: 100%;
   height: 80px!important;
 
 }
+.rotate{
+  transition: width 2s;
+}
+.rotate:hover{
+width: 110%;
+ transform:skewX(5deg)!important;
+}
+.img3{
+  background-image: url("img/group\ disscussion.jpg");
+height: 400px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+}
+.marginheading{
+  margin-top: 140px !important;
+}
+.offset-lg-5{
+  margin-left:43%!important;
+ 
+}
+.offset-lg-5:hover{
+  background-color: black !important;
+  color: white !important;
+  opacity: 0.9;
+
+}
+.warning{
+  background-color: #f7631b !important;
+}
+.myhover:hover{
+  color: orange;
+}
+.value:hover {
+  background-color: black !important;
+  color: white !important;
+}
+.width{
+  height: 400px !important;
+  background-color: #04091e !important;
+}
+.mgtop{
+  margin-top: 130px !important;
+}
+.text{
+  text-decoration: none !important;
+  list-style-type: none !important;
+  font-size: 14px !important;
+  color: #776549 !important;
+  
+}
+
+/* ===============================================About=========================================================== */
+.bg-img2{
+  background-image: url("img/about\ banner.jpg");
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  }
+  .ancher{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    
+    
+
+  }
