@@ -1,3 +1,4 @@
+/* body background img */
 .bg-img{
 background-image: url("img/banner5.avif");
 height: 708px;
@@ -7,19 +8,23 @@ background-position: center;
 filter: opacity(1);
 
 }
-
+/* navbar */
 .dark:hover{
   background-color: #f7631b !important;
 }
+/* card margin top */
 .mg{
   margin-top: 65px !important;
 }
+/* link hover  */
 .hover:hover{
   color: orange!important;
 }
+/* font size of banner heading */
 .fsm-1{
   font-size: 50px !important;
 }
+/* banner btn */
 .btn-lg{
   border-radius: 0!important;
   
@@ -30,10 +35,74 @@ filter: opacity(1);
   color: orange !important;
   border:none !important;
 }
+/* cardtop margin */
 .mtt{
   margin-top: 85px!important;
 }
 
+/* card img */
+.myimg1{
+  background-image: url(img/p1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 195px;
+  transition-duration: 0.5s;
+}
+.myimg1:hover{
+  transform: scale(1.1);
+}
+.myimg2{
+  background-image: url(img/p2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 195px;
+  transition-duration: 0.5s;
+
+}
+.myimg2:hover{
+  transform: scale(1.1);}
+.myimg3{
+  background-image: url(img/p3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 195px;
+  transition-duration: 0.5s;
+
+}
+.myimg3:hover{
+  transform: scale(1.1);
+}
+.myimg4{
+  background-image: url(img/p4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 195px;
+  transition-duration: 0.5s;
+
+}
+.myimg4:hover{
+  transform: scale(1.1);
+}
+/* positoon of img inside text */
+.famargin{
+  position: absolute;
+  top:170px;
+}
+.famargin2{
+  position: absolute;
+  top:170px;
+  left:60px;
+}
+.famargin3{
+  position: absolute;
+  top:165px;
+  left:210px;
+}
+/* hove on join now */
 .text-decoration-none:hover{
   
 color:orange !important;
@@ -46,6 +115,7 @@ h1{
   margin-top: 150px!important;
   text-align:center ;
 }
+/* 2nd banner */
 .bgimg{
 background-image: url("img/Newbanner.jpg");
 height: 700px;
@@ -56,18 +126,23 @@ filter: opacity(0.9);
 width: 100%;
 
 }
+/* form margin  */
 .mrgform{
   padding-top: 120px!important;
   height: 80px!important;
 
 }
+/* card img prporty */
 .rotate{
-  transition: width 2s;
+  width: 70%;
+  transition-duration:0.5s;
 }
 .rotate:hover{
-width: 110%;
- transform:skewX(5deg)!important;
+
+ transform:scale(1.1)!important;
+ 
 }
+/* group disscusion banner */
 .img3{
   background-image: url("img/group\ disscussion.jpg");
 height: 400px;
@@ -76,33 +151,63 @@ background-size: cover;
 background-position: center;
 
 }
+/* inside banner heading marigin  */
 .marginheading{
   margin-top: 140px !important;
 }
+
+/* banner heading margin  */
 .offset-lg-5{
   margin-left:43%!important;
  
 }
+/* inside banner buttn  */
 .offset-lg-5:hover{
   background-color: black !important;
   color: white !important;
   opacity: 0.9;
 
 }
-.warning{
-  background-color: #f7631b !important;
-}
+/* 3rd card heading */
 .myhover:hover{
   color: orange;
 }
+.card-img-top{
+  transition-duration: 0.5s;
+}
+.card-img-top:hover{
+  transform: scale(1.1);
+}
+.fa-circle-arrow-right{
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  height: 40px;
+  font-size: 16px !important;
+}
+.fa-circle-arrow-right:hover{
+  width: 130px;
+  height: 40px;
+  background-color: #f7631b ;
+  border-radius:25px;
+  color: aliceblue;
+  
+}
+/* fotter heading  */
+.warning{
+  background-color: #f7631b !important;
+}
+
+/* footer heading button */
 .value:hover {
   background-color: black !important;
   color: white !important;
 }
+/* black part */
 .width{
   height: 400px !important;
   background-color: #04091e !important;
 }
+
 .mgtop{
   margin-top: 130px !important;
 }
@@ -112,6 +217,9 @@ background-position: center;
   font-size: 14px !important;
   color: #776549 !important;
   
+}
+.text1:hover{
+  color: #f7631b !important;
 }
 
 /* ===============================================About=========================================================== */
