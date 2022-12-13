@@ -179,8 +179,8 @@ background-position: center;
   transform: scale(1.1);
 }
 .fa-circle-arrow-right{
-  transition-duration: 1s;
-  transition-timing-function: linear;
+  transition-duration: 3s;
+  transition-timing-function: ease;
   height: 40px;
   font-size: 16px !important;
 }
@@ -234,7 +234,7 @@ background-position: center;
     text-decoration: none;
     color: white;
     font-size: 25px;
-    
-    
-
+  }
+  .mabg{
+    margin-top: 170px !important;
   }
