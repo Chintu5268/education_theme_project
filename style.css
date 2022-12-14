@@ -238,3 +238,27 @@ background-position: center;
   .mabg{
     margin-top: 170px !important;
   }
+  /* accordain bg color */
+  .orange{
+    background-color: #f7631b !important;
+  }
+  .ratio{
+    height: 350px !important;
+  }
+
+  /* ================================================courses============================================= */
+  .linkhover{
+    background-color: #f7631b !important;
+    color: aliceblue !important;
+    text-decoration: none;
+    
+  }
+  
+  .linkhover :hover{
+background-color: aliceblue !important;
+color: #f7631b !important;
+border: #f7631b !important;
+
+  }
+  
+
