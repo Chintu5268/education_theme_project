@@ -1,5 +1,5 @@
 /* body background img */
-.bg-img{
+.bgimg{
 background-image: url("img/banner5.avif");
 height: 708px;
 background-repeat: no-repeat;
@@ -116,7 +116,10 @@ h1{
   text-align:center ;
 }
 /* 2nd banner */
-.bgimg{
+.banner2margin{
+  margin-top: 900px !important;
+}
+.bgimg2{
 background-image: url("img/Newbanner.jpg");
 height: 700px;
 background-repeat: no-repeat;
@@ -280,11 +283,48 @@ border: #f7631b !important;
   
 }
 /* ===========================================blogHome========================================= */
-/* .bigbanner{
-  background-image: url(img/blogbanner.jpg);
+.bigbanner{
+ 
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 700px;
   width: 100%;
-} */
+}
+
+.ml{
+  margin-left: 250px !important;
+}
+.myanchor{
+  text-decoration: none;
+  background-color: #fff;
+  
+
+}
+.myanchor:hover{
+ color: #fff;
+opacity: 0.5;
+border: solid white;
+}
+.mttop{
+  margin-top: 200px;
+}
+.box{
+  width: 90%;
+  height: 80%;
+  background-color: black;
+  margin: 20px auto;
+  
+}
+.boxancher{
+  text-decoration: none;
+  margin-left:115px !important;
+  padding-top:5px !important;
+  opacity: 1;
+
+}
+.boxancher2{
+  text-decoration: none;
+  margin-left: 50px !important;
+  opacity: 0.9;
+}
