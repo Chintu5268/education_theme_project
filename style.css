@@ -260,5 +260,31 @@ color: #f7631b !important;
 border: #f7631b !important;
 
   }
+ /* =======================================Events=======================================================  */
+ .cardwidth{
+  width: 250px !important;
+ }
+.mgtopeventcard{
+  margin-top: 250px;
+}
+/* =================================gallary======================================================= */
+.mggalary{
+  margin-top: 300px;
+}
+.gimg1{
+  width: 100%;
+  height: 250px;
+}
+.gimg:hover{
+  color: #f7631b !important;
   
-
+}
+/* ===========================================blogHome========================================= */
+/* .bigbanner{
+  background-image: url(img/blogbanner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  width: 100%;
+} */
