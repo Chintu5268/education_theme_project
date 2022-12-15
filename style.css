@@ -1,44 +1,45 @@
 /* body background img */
 .bgimg{
 background-image: url("img/banner5.avif");
-height: 708px;
+height: 650px;
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
-filter: opacity(1);
+filter: opacity(0.9);
 
 }
 /* navbar */
 .dark:hover{
-  background-color: #f7631b !important;
-}
-/* card margin top */
-.mg{
-  margin-top: 65px !important;
-}
-/* link hover  */
-.hover:hover{
-  color: orange!important;
+  color: #f7631b !important;
 }
 /* font size of banner heading */
 .fsm-1{
   font-size: 50px !important;
 }
-/* banner btn */
-.btn-lg{
-  border-radius: 0!important;
-  
 
+/* card margin top */
+.mg{
+  margin-top: 125px !important;
 }
-.mybtn:hover{
-  background-color: white !important;
-  color: orange !important;
-  border:none !important;
+.bannerbtn{
+  background-color: #f7631b;
+  margin-left: 0px;
+}
+/* link hover  */
+.bannerbtn:hover{
+  color: orange!important;
+  background-color: #fff;
 }
 /* cardtop margin */
 .mtt{
-  margin-top: 85px!important;
+  margin-top:185px!important;
 }
+
+
+
+
+
+
 
 /* card img */
 .myimg1{
@@ -48,11 +49,11 @@ filter: opacity(1);
   background-position: center;
   height: 195px;
   transition-duration: 0.5s;
-}
+} 
 .myimg1:hover{
   transform: scale(1.1);
 }
-.myimg2{
+ .myimg2{
   background-image: url(img/p2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -111,24 +112,19 @@ color:orange !important;
 .text-dark{
   color: black!important;
 }
-h1{
-  margin-top: 150px!important;
-  text-align:center ;
-}
+
 /* 2nd banner */
-.banner2margin{
-  margin-top: 900px !important;
-}
+
 .bgimg2{
 background-image: url("img/Newbanner.jpg");
 height: 700px;
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
-filter: opacity(0.9);
-width: 100%;
 
-}
+
+
+} 
 /* form margin  */
 .mrgform{
   padding-top: 120px!important;
@@ -198,10 +194,10 @@ background-position: center;
 /* fotter heading  */
 .warning{
   background-color: #f7631b !important;
-}
+} 
 
 /* footer heading button */
-.value:hover {
+ .value:hover {
   background-color: black !important;
   color: white !important;
 }
@@ -226,13 +222,16 @@ background-position: center;
 }
 
 /* ===============================================About=========================================================== */
-.bg-img2{
-  background-image: url("img/about\ banner.jpg");
-  height: 200px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  }
+ .bgimg2{
+    background-image: url("img/banner5.avif");
+    height: 190px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: opacity(0.9);
+    
+    }
+  
   .ancher{
     text-decoration: none;
     color: white;
@@ -242,7 +241,7 @@ background-position: center;
     margin-top: 170px !important;
   }
   /* accordain bg color */
-  .orange{
+   .orange{
     background-color: #f7631b !important;
   }
   .ratio{
@@ -250,7 +249,7 @@ background-position: center;
   }
 
   /* ================================================courses============================================= */
-  .linkhover{
+  /* .linkhover{
     background-color: #f7631b !important;
     color: aliceblue !important;
     text-decoration: none;
@@ -262,16 +261,16 @@ background-color: aliceblue !important;
 color: #f7631b !important;
 border: #f7631b !important;
 
-  }
+  } */
  /* =======================================Events=======================================================  */
- .cardwidth{
+ /* .cardwidth{
   width: 250px !important;
  }
 .mgtopeventcard{
   margin-top: 250px;
-}
+} */
 /* =================================gallary======================================================= */
-.mggalary{
+/* .mggalary{
   margin-top: 300px;
 }
 .gimg1{
@@ -281,9 +280,9 @@ border: #f7631b !important;
 .gimg:hover{
   color: #f7631b !important;
   
-}
+} */
 /* ===========================================blogHome========================================= */
-.bigbanner{
+/* .bigbanner{
  
   background-repeat: no-repeat;
   background-size: cover;
@@ -327,4 +326,4 @@ border: solid white;
   text-decoration: none;
   margin-left: 50px !important;
   opacity: 0.9;
-}
+} */
