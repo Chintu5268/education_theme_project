@@ -36,11 +36,6 @@ filter: opacity(0.9);
 }
 
 
-
-
-
-
-
 /* card img */
 .myimg1{
   background-image: url(img/p1.jpg);
@@ -117,10 +112,11 @@ color:orange !important;
 
 .bgimg2{
 background-image: url("img/Newbanner.jpg");
-height: 700px;
+height: 600px;
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
+width: 100%;
 
 
 
@@ -144,7 +140,7 @@ background-position: center;
 /* group disscusion banner */
 .img3{
   background-image: url("img/group\ disscussion.jpg");
-height: 400px;
+height: 420px !important;
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
