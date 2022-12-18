@@ -19,7 +19,7 @@ filter: opacity(0.9);
 
 /* card margin top */
 .mg{
-  margin-top: 125px !important;
+  margin-top: 109px !important;
 }
 .bannerbtn{
   background-color: #f7631b;
@@ -218,9 +218,9 @@ background-position: center;
 }
 
 /* ===============================================About=========================================================== */
- .bgimg2{
-    background-image: url("img/banner5.avif");
-    height: 190px;
+ .bgimg3{
+    background-image: url("img/about.avif");
+    height: 455px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -228,6 +228,13 @@ background-position: center;
     
     }
   
+  .mgr{
+    margin-left: 42%;
+  }
+  .orange2:hover{
+    background-color: #f7631b !important;
+
+  }
   .ancher{
     text-decoration: none;
     color: white;
@@ -245,7 +252,17 @@ background-position: center;
   }
 
   /* ================================================courses============================================= */
-  /* .linkhover{
+
+  .bgimg4{
+    background-image: url("img/about.avif");
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: opacity(0.9);
+    
+    }
+  .linkhover{
     background-color: #f7631b !important;
     color: aliceblue !important;
     text-decoration: none;
@@ -257,7 +274,7 @@ background-color: aliceblue !important;
 color: #f7631b !important;
 border: #f7631b !important;
 
-  } */
+  } 
  /* =======================================Events=======================================================  */
  /* .cardwidth{
   width: 250px !important;
