@@ -1,84 +1,94 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Gallary</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gallary</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/brands.min.css">
-  </head>
-  <body class="bg-img2">
+</head>
+
+<body class="bg-img bgimg5">
+  <div class="container-fluid-lg">
+    <nav class="navbar navbar-expand-lg bg-dark sticky-lg-top px-lg-5 bg-opacity-25 w-100 ">
+      <a class="navbar-brand " href="#">
+        <img src="img/logo.png" alt="404 Not Found">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse offset-lg-4" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-white dark " href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white dark " href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white dark " href="courses.html">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white dark " href="events.html">Event</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white dark active" aria-current="page" href="gallary.html">Gallary</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link text-white dark dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Blog
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="bloghome.html">Blog Home</a></li>
+              <li><a class="dropdown-item" href="#">Blog Page</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link text-white dark dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Pages
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Course Details</a></li>
+              <li><a class="dropdown-item" href="#">Event Details</a></li>
+              <li><a class="dropdown-item" href="#">Elements</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link text-white dark dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Level
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Item One</a></li>
+                  <li><a class="dropdown-item" href="#">Item Two</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white dark" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
     <div class="container">
-      <header class="sticky-top mb-lg-5">
-        <div class="row  justify-content-center align-items-center d-flex  bg-dark bg-opacity-50 py-3 ">
-          <div class="col-2 ">
-            <img src="img/logo.png" alt="logo">
-          </div>
-          <div class="col-8 ms-auto ">
-            <nav>
-              <ul class="nav nav-tabs border border-0 ">
-                <li class="nav-item  ">
-                  <a class="nav-link text-white border-0 hover " href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white border-0 hover" href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white border-0 hover" href="courses.html">Course</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white border-0 hover" href="events.html">Event</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white border-0 hover" href="gallary.html">Galary</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle text-white border-0" data-bs-toggle="dropdown" href="#" role="button"
-                    aria-expanded="false">Blog</a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Blog Home</a></li>
-                    <li><a class="dropdown-item" href="#">Blog Signal</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle text-white border-0 hover" data-bs-toggle="dropdown" href="#"
-                    role="button" aria-expanded="false">Pages</a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Course Details</a></li>
-                    <li><a class="dropdown-item" href="#">Event Details</a></li>
-                    <li><a class="dropdown-item" href="#">Elements</a></li>
-                    <li><a class="dropdown-item" href="#">Level 2</a>
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Item One</a></li>
-                        <li><a class="dropdown-item" href="#">Item Two</a></li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white border-0 hover" href="#">Contact</a>
-                </li>
-  
-              </ul>
-            </nav>
+      <div class="row m-lg-5">
+        <div class="col-lg-12">
+          <h1 class="text-white text-center mt-lg-5">Gallary</h1>
+        </div>
+        <div class="row ">
+          <div class="col-lg-3 offset-lg-4 mgr bg-opacity-10">
+            <a href="index.html" class="ancher text-center">Home <i class="fa-solid fa-arrow-right offset-lg-1"></i></a>
+            <a href="gallary.html" class="ancher ms-lg-3">Gallary</a>
           </div>
         </div>
-      </header>
-       <!--          =========================================================Banner=============================================== -->
-    <div class="row ">
-      <div class="col-lg-12">
-        <h1 class="text-white">Gallary</h1>
       </div>
-      <div class="row ">
-        <div class="col-lg-3 offset-lg-5  bg-opacity-10">
-          <a href="index.html" class="ancher text-center">Home <i class="fa-solid fa-arrow-right offset-lg-1"></i></a>
-          <a href="gallary.html" class="ancher ms-lg-3">Gallary</a>
-        </div>
-      </div>
-    </div>
-    <!-- ===========================================images================================================== -->
+      <!-- ===========================================images================================================== -->
       <div class="row mggalary mb-lg-3">
         <div class="col-lg-7 gimg">
           <img src="img/e2.jpg" class="img-fluid gimg1" alt="...">
@@ -106,20 +116,23 @@
           <img src="img/g7.jpg.webp" class="img-fluid gimg1" alt="...">
         </div>
       </div>
-       <!-- ===========================main footer============================================================== -->
-      <!-- ===========================================Orange Part================================================= -->
+    </div>
+    <!-- ===========================================Orange Part================================================= -->
+    <div class="container-fluid">
       <div class="row warning py-lg-5 mt-lg-5 ">
         <div class="col-lg-8 offset-lg-1 text-white  ">
           <h2>Not Yet Satisfied With Our Treand?</h2>
         </div>
         <div class="col-lg-3 mt-lg-3">
-          <a href="#" class="  bg-white text-dark border-0 py-2 text-decoration-none px-4 value ms-lg-auto">VIEW OUR BLOG
+          <a href="#" class="  bg-white text-dark border-0 py-2 text-decoration-none px-4 value ms-lg-auto">VIEW OUR
+            BLOG
           </a>
         </div>
       </div>
-  
-  <!-- =======================================black Part=================================================== -->
-      <div class="row width">
+    </div>
+    <!-- =======================================black Part=================================================== -->
+    <div class="container-fluid">
+      <div class="row width p-lg-0">
         <div class="row  ">
           <div class="col-lg-3 offset-lg-1  " style="width:160px;">
             <h6 class="text-white mgtop">Top Products</h6>
@@ -178,13 +191,15 @@
               <p class="text-white">Copyright ©2022 All rights reserved | This template is made with by Colorlib </p>
             </div>
             <div class="col-lg-2 ms-lg-auto">
-              <a href="#"><i class="fa-brands fa-square-facebook fs-4"></i></a>
-              <a href="#"><i class="fa-brands fa-twitter fs-4"></i></a>
-              <a href="#"><i class="fa-brands fa-google fs-4"></i></a>
+              <a href="#"><i class="fa-brands fa-square-facebook fs-4 text-white"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter fs-4 text-white"></i></a>
+              <a href="#"><i class="fa-brands fa-google fs-4 text-white"></i></a>
             </div>
+          </div>
         </footer>
       </div>
     </div>
+  </div>
 
 
 
@@ -212,6 +227,9 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+  </script>
+</body>
+
 </html>
