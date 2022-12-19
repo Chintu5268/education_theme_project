@@ -1,101 +1,157 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/brands.min.css">
-  </head>
-  <body>
-  <div class="bg-img bigbanner" style="background-image:url(img/blogbanner.jpg);height:650px;">
-    <div class="container">
-        <!-- ===============================================Header================================================== -->
-    <header class="sticky-top mb-lg-5">
-      <div class="row  justify-content-center align-items-center d-flex  bg-dark bg-opacity-50 py-3 ">
-        <div class="col-2 ">
-          <img src="img/logo.png" alt="logo">
-        </div>
-        <div class="col-8 ms-auto ">
-          <nav>
-            <ul class="nav nav-tabs border border-0 ">
-              <li class="nav-item  ">
-                <a class="nav-link text-white border-0 hover " href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white border-0 hover" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white border-0 hover" href="courses.html">Course</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white border-0 hover" href="events.html">Event</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white border-0 hover" href="gallary.html">Galary</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-white border-0" data-bs-toggle="dropdown" href="#" role="button"
-                  aria-expanded="false">Blog</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="bloghome.html">Blog Home</a></li>
-                  <li><a class="dropdown-item" href="#">Blog Signal</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-white border-0 hover" data-bs-toggle="dropdown" href="#"
-                  role="button" aria-expanded="false">Pages</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Course Details</a></li>
-                  <li><a class="dropdown-item" href="#">Event Details</a></li>
-                  <li><a class="dropdown-item" href="#">Elements</a></li>
-                  <li><a class="dropdown-item" href="#">Level 2</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Item One</a></li>
-                      <li><a class="dropdown-item" href="#">Item Two</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white border-0 hover" href="#">Contact</a>
-              </li>
 
-            </ul>
-          </nav>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/brands.min.css">
+</head>
+
+<body class="bg-img bigbanner">
+  <div class="container-fluid-lg">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark px-lg-5 bg-opacity-25 w-100  mysticky">
+        <a class="navbar-brand " href="#">
+          <img src="img/logo.png" alt="404 Not Found">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse offset-lg-4" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white dark " href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white dark " href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white dark " href="courses.html">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white dark " href="events.html">Event</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white dark active" aria-current="page" href="gallary.html">Gallary</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-white dark dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Blog
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="bloghome.html">Blog Home</a></li>
+                <li><a class="dropdown-item" href="#">Blog Page</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-white dark dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Pages
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Course Details</a></li>
+                <li><a class="dropdown-item" href="#">Event Details</a></li>
+                <li><a class="dropdown-item" href="#">Elements</a></li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link text-white dark dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Level
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Item One</a></li>
+                    <li><a class="dropdown-item" href="#">Item Two</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white dark" href="#">Contact</a>
+            </li>
+          </ul>
         </div>
-      </div>
+      </nav>
     </header>
-    <div class="row">
-      <div class="col-lg-6 offset-lg-3">
-        <h1 class="text-white fsm-1">Dude You’re Getting a Telescope</h1>
+    <!-- ========================================banner Heading =========================================== -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <h1 class="text-center text-white mtlb">Dude You’re Getting a Telescope</h1>
+        </div>
+        <div class="col-lg-7 offset-lg-3">
+          <p class="text-white mlp">There is a moment in the life of any aspiring astronomer that it is time to buy that
+            first</p>
+        </div>
       </div>
-      <div class="col-lg-7 offset-lg-2 ml">
-        <p class="text-white text-center">There is a moment in the life of any aspiring astronomer that it is time to buy that first</p>
+      <div class="row mt-lg-2">
+        <div class="col-lg-7 ms-lg-auto">
+          <ul style="list-style-type: none;">
+            <li> <a class="myanchor px-lg-3 py-lg-2 text-dark " href="#">View More</a></li>
+          </ul>
+        </div>
       </div>
-    </div>
-    <div class="row mt-lg-2">
-      <div class="col-lg-7 ms-lg-auto">
-       <ul style="list-style-type: none;">
-        <li> <a class="myanchor p-lg-2 text-dark " href="#">View More</a></li>
-       </ul>
-      </div>
-    </div>
-<div class="row mttop">
-  <div class="col-lg-4 bg-img" style="background-image: url(img/cat-widget1.jpg.webp); height:200px; background-repeat: no-repeat; background-size: cover;">
-    <div class="box">
-     <a class="boxancher text-white py-lg-2" href="#">SOCIAL LIFE</a>
-     <hr class="text-white">
-     <a class="boxancher2 text-white" href="#">Enjoy your social life toghether</a>
+      <!-- =======================================================images==================================== -->
+      <section>
+        <div class="row imgmt">
+          <div class="col-lg-4">
+            <div class="bhomeimg bg-img ">
+              <div class="overlay-lg">
+                <a class="imghead text-white" href="#">SOCIAL LIFE</a>
+                <hr class="text-white">
+                <a class="imghead2 text-white" href="#">Enjoy your social life toghther</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="bhomeimg2 bg-img ">
+              <div class="overlay-lg">
+                <a class="imghead text-white" href="#">POLOTICS</a>
+                <hr class="text-white">
+                <a class="imghead2 text-white" href="#">Be a part of Politics</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="bhomeimg3 bg-img ">
+              <div class="overlay-lg">
+                <a class="imghead text-white" href="#">FOODS</a>
+                <hr class="text-white">
+                <a class="imghead2 text-white" href="#">Let the food be finished</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- =========================================main=================================================== -->
+      <main>
+        <div class="row mt-lg-5 p-lg-5 ">
+          <div class="col-lg-2 ">
+            <a class="text-decoration-none" href="#">Food,</a>
+            <a class="text-decoration-none"href="#">Technology,</a>
+            <a class="text-decoration-none"href="#">Politics,</a>
+            <a class="text-decoration-none"href="#">Lifestyle</a>
+            <br>
+            <br>
+            <a class="text-decoration-none ms-lg-3" href="#">Mark Wiens</a>
+            <span><i class="fa-solid fa-id-badge"></i></span>
+            <br><br>
+            <a class="text-decoration-none ms-lg-3" href="#">12 Dec,2017</a>
+            <span><i class="fa-regular fa-calendar-days"></i></span>
+          </div>
+          <div class="col-lg-6 m-lg-0">
+            <img class="feture1" src="img/feature-img1.jpg.webp" alt="404 NOT Found">
+          </div>
+        </div>
+        
+      </main>
     </div>
   </div>
-  <div class="col-lg-4"></div>
-  <div class="col-lg-4"></div>
-</div>
-
-<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, neque magnam illo consequatur provident animi quis temporibus alias? Doloribus aliquam quaerat dignissimos amet unde expedita possimus fugiat accusamus cupiditate. Perspiciatis facilis dicta nostrum fugiat aperiam molestiae earum eos nihil sapiente omnis? Quo, accusamus officiis recusandae totam mollitia exercitationem sit sed saepe necessitatibus, tempore consequatur? Dolores molestias voluptatibus saepe perspiciatis natus officia animi consequatur consectetur iure adipisci vero quo laboriosam rerum, minima non. Beatae, deserunt eaque. Laboriosam quod obcaecati at hic ullam consequuntur, aliquam sapiente illo explicabo magni, illum reprehenderit dolores officiis similique debitis sunt quisquam neque unde ducimus nemo, fugiat doloremque! Asperiores quod repudiandae architecto sapiente, magni natus cum enim perspiciatis praesentium officiis assumenda fugit dicta aut velit ipsa hic deleniti laboriosam cumque accusantium animi aperiam voluptatem, minima id! Corrupti dicta beatae consectetur aperiam reiciendis perferendis natus et minus, ad fuga qui ullam temporibus neque aliquam perspiciatis, placeat asperiores explicabo iure est, unde officiis! Perspiciatis dolor quasi omnis corrupti! Repellendus optio possimus quaerat ipsum deleniti eos sed consequuntur dolor, veniam incidunt suscipit harum, reprehenderit ducimus tenetur autem culpa dolore placeat mollitia, impedit iure molestias facilis! Odio eos ea dolor eius numquam expedita quo tempora suscipit perspiciatis quae repellat porro hic illum dolore ratione alias, veritatis excepturi sint corrupti aliquid vel aliquam quaerat totam ut. Esse architecto libero nihil voluptatibus in similique consequuntur accusamus aliquam sapiente, iusto a tenetur explicabo autem beatae repellat quidem quas placeat natus! Consequuntur deserunt officia omnis, iusto nesciunt eligendi soluta, sapiente distinctio ducimus eum, odio ex. Molestias, enim cupiditate. Animi tempore numquam blanditiis ea inventore amet eius odit facilis neque saepe. Laborum, perspiciatis autem? Itaque dolor perspiciatis nemo voluptatem est quisquam non, nobis, sit voluptatum neque sapiente reprehenderit, incidunt perferendis pariatur quod architecto ducimus soluta ex magni? Sequi, natus optio. Tenetur consectetur aut unde nesciunt est quasi quas pariatur! Quaerat dolores quae, dolorem architecto nam rem molestias possimus odio soluta minus placeat est a, incidunt modi magnam illum nemo quis mollitia labore fugiat! Dolorem sed laboriosam incidunt odio ut commodi placeat, hic nisi nulla molestias consequuntur beatae nesciunt magnam dolor cupiditate sequi in eaque autem? Error consequuntur repellat dolorem nulla sint, autem aliquid nisi facere labore rem. Provident, pariatur sint! Cumque esse mollitia eum aliquid necessitatibus, quod ut at ratione officia voluptas dolorem asperiores, vel repellendus non soluta nobis cum blanditiis! Facilis impedit adipisci distinctio ut et sapiente quo odit vero quis dignissimos quia omnis minima exercitationem dolorem cum nulla, veritatis, eligendi amet iure sint corporis quas quos odio perferendis? Ex porro similique minima deserunt. Commodi cupiditate velit vero, architecto nulla ipsa cum consectetur sunt, deserunt soluta consequatur quasi laborum? Excepturi fugit architecto exercitationem at illum pariatur minima sint necessitatibus eos quo magni, perspiciatis, itaque repudiandae minus, fugiat placeat illo repellendus iusto. Odio, officia. Explicabo totam facere, magnam officiis unde earum asperiores nulla atque laudantium id accusamus esse ea molestias expedita distinctio quos aperiam perspiciatis autem quasi amet repudiandae ipsam maxime laboriosam consectetur. Voluptas cupiditate autem, at numquam perspiciatis rerum. Dolorem similique tempora aspernatur enim nihil.</p>
 
 
 
@@ -104,11 +160,40 @@
 
 
 
-    </div>
-  </div>
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-  </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+  </script>
+</body>
+
 </html>
