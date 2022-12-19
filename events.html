@@ -12,182 +12,191 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/brands.min.css">
 </head>
 
-<body class="bg-img2">
-  <div class="container">
-    <!-- ===============================================Header================================================== -->
-    <header class="sticky-top mb-lg-5">
-      <div class="row  justify-content-center align-items-center d-flex  bg-dark bg-opacity-50 py-3 ">
-        <div class="col-2 ">
-          <img src="img/logo.png" alt="logo">
-        </div>
-        <div class="col-8 ms-auto ">
-          <nav>
-            <ul class="nav nav-tabs border border-0 ">
-              <li class="nav-item  ">
-                <a class="nav-link text-white border-0 hover " href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white border-0 hover" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white border-0 hover" href="courses.html">Course</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white border-0 hover" href="events.html">Event</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white border-0 hover" href="gallary.html">Galary</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-white border-0" data-bs-toggle="dropdown" href="#" role="button"
-                  aria-expanded="false">Blog</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Blog Home</a></li>
-                  <li><a class="dropdown-item" href="#">Blog Signal</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-white border-0 hover" data-bs-toggle="dropdown" href="#"
-                  role="button" aria-expanded="false">Pages</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Course Details</a></li>
-                  <li><a class="dropdown-item" href="#">Event Details</a></li>
-                  <li><a class="dropdown-item" href="#">Elements</a></li>
-                  <li><a class="dropdown-item" href="#">Level 2</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Item One</a></li>
-                      <li><a class="dropdown-item" href="#">Item Two</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white border-0 hover" href="#">Contact</a>
-              </li>
-
+<body class="bg-img bgimg5">
+  <div class="container-fluid-lg">
+    <nav class="navbar navbar-expand-lg bg-dark sticky-lg-top px-lg-5 bg-opacity-25 w-100">
+      <a class="navbar-brand " href="#">
+        <img src="img/logo.png" alt="404 Not Found">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse offset-lg-4" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-white dark " href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white dark " href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white dark " href="courses.html">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white dark active" aria-current="page" href="events.html">Event</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white dark" href="gallary.html">Gallary</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link text-white dark dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Blog
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="bloghome.html">Blog Home</a></li>
+              <li><a class="dropdown-item" href="#">Blog Page</a></li>
             </ul>
-          </nav>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link text-white dark dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Pages
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Course Details</a></li>
+              <li><a class="dropdown-item" href="#">Event Details</a></li>
+              <li><a class="dropdown-item" href="#">Elements</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link text-white dark dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Level
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Item One</a></li>
+                  <li><a class="dropdown-item" href="#">Item Two</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white dark" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row m-lg-5">
+        <div class="col-lg-12">
+          <h1 class="text-white text-center mt-lg-5">Events</h1>
         </div>
-      </div>
-    </header>
-    <!--          =========================================================Banner=============================================== -->
-    <div class="row ">
-      <div class="col-lg-12">
-        <h1 class="text-white">Events</h1>
-      </div>
-      <div class="row ">
-        <div class="col-lg-3 offset-lg-5  bg-opacity-10">
-          <a href="index.html" class="ancher text-center">Home <i class="fa-solid fa-arrow-right offset-lg-1"></i></a>
-          <a href="events.html" class="ancher ms-lg-3">Events</a>
+        <div class="row ">
+          <div class="col-lg-3 offset-lg-4 mgr bg-opacity-10">
+            <a href="index.html" class="ancher text-center">Home <i class="fa-solid fa-arrow-right offset-lg-1"></i></a>
+            <a href="events.html" class="ancher ms-lg-3">Events</a>
+          </div>
         </div>
       </div>
     </div>
+    <div class="container">
     <!-- =================================================cards================================================== -->
-    <div class="row mgtopeventcard">
-      <div class="col-lg-3 mt-lg-2">
-        <div class="img">
-          <img src="img/e1.jpg" alt="ssds" class="rotate cardwidth" >
+
+      <div class="row mgtopeventcard">
+        <div class="col-lg-3 mt-lg-2">
+          <div class="img">
+            <img src="img/e1.jpg" alt="ssds" class="rotate cardwidth">
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <p>25 Feburay 2018</p>
+          <h4>The Universe Through A Chilid S Eyes</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia ipsum laborum sequi praesentium
+            recusandae
+            rerum veniam exercitationem </p>
+        </div>
+        <div class="col-lg-3 mt-lg-2">
+          <div class="img">
+            <img src="img/e2.jpg" alt="ssds" class="rotate cardwidth">
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <p>25 Feburay 2018</p>
+          <h4>The Universe Through A Chilid S Eyes</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia ipsum laborum sequi praesentium
+            recusandae
+            rerum veniam exercitationem </p>
         </div>
       </div>
-      <div class="col-lg-3">
-        <p>25 Feburay 2018</p>
-                    <h4>The Universe Through A Chilid S Eyes</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia ipsum laborum sequi praesentium
-                      recusandae
-                      rerum veniam exercitationem </p>
-      </div>
-      <div class="col-lg-3 mt-lg-2">
-        <div class="img">
-          <img src="img/e2.jpg" alt="ssds" class="rotate cardwidth" >
+      <div class="row mt-lg-5">
+        <div class="col-lg-3 mt-lg-2">
+          <div class="img">
+            <img src="img/e1.jpg" alt="ssds" class="rotate cardwidth">
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <p>25 Feburay 2018</p>
+          <h4>The Universe Through A Chilid S Eyes</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia ipsum laborum sequi praesentium
+            recusandae
+            rerum veniam exercitationem </p>
+        </div>
+        <div class="col-lg-3 mt-lg-2">
+          <div class="img">
+            <img src="img/e2.jpg" alt="ssds" class="rotate cardwidth">
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <p>25 Feburay 2018</p>
+          <h4>The Universe Through A Chilid S Eyes</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia ipsum laborum sequi praesentium
+            recusandae
+            rerum veniam exercitationem </p>
         </div>
       </div>
-      <div class="col-lg-3">
-        <p>25 Feburay 2018</p>
-                    <h4>The Universe Through A Chilid S Eyes</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia ipsum laborum sequi praesentium
-                      recusandae
-                      rerum veniam exercitationem </p>
-      </div>
-    </div>
-    <div class="row mt-lg-5">
-      <div class="col-lg-3 mt-lg-2">
-        <div class="img">
-          <img src="img/e1.jpg" alt="ssds" class="rotate cardwidth" >
+      <div class="row mt-lg-5">
+        <div class="col-lg-3 mt-lg-2">
+          <div class="img">
+            <img src="img/e1.jpg" alt="ssds" class="rotate cardwidth">
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <p>25 Feburay 2018</p>
+          <h4>The Universe Through A Chilid S Eyes</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia ipsum laborum sequi praesentium
+            recusandae
+            rerum veniam exercitationem </p>
+        </div>
+        <div class="col-lg-3 mt-lg-2">
+          <div class="img">
+            <img src="img/e2.jpg" alt="ssds" class="rotate cardwidth">
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <p>25 Feburay 2018</p>
+          <h4>The Universe Through A Chilid S Eyes</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia ipsum laborum sequi praesentium
+            recusandae
+            rerum veniam exercitationem </p>
         </div>
       </div>
-      <div class="col-lg-3">
-        <p>25 Feburay 2018</p>
-                    <h4>The Universe Through A Chilid S Eyes</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia ipsum laborum sequi praesentium
-                      recusandae
-                      rerum veniam exercitationem </p>
-      </div>
-      <div class="col-lg-3 mt-lg-2">
-        <div class="img">
-          <img src="img/e2.jpg" alt="ssds" class="rotate cardwidth" >
+      <div class="row mt-lg-5">
+        <div class="col-lg-3 mt-lg-2">
+          <div class="img">
+            <img src="img/e1.jpg" alt="ssds" class="rotate cardwidth">
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <p>25 Feburay 2018</p>
+          <h4>The Universe Through A Chilid S Eyes</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia ipsum laborum sequi praesentium
+            recusandae
+            rerum veniam exercitationem </p>
+        </div>
+        <div class="col-lg-3 mt-lg-2">
+          <div class="img">
+            <img src="img/e2.jpg" alt="ssds" class="rotate cardwidth">
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <p>25 Feburay 2018</p>
+          <h4>The Universe Through A Chilid S Eyes</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia ipsum laborum sequi praesentium
+            recusandae
+            rerum veniam exercitationem </p>
         </div>
       </div>
-      <div class="col-lg-3">
-        <p>25 Feburay 2018</p>
-                    <h4>The Universe Through A Chilid S Eyes</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia ipsum laborum sequi praesentium
-                      recusandae
-                      rerum veniam exercitationem </p>
-      </div>
-    </div>
-    <div class="row mt-lg-5">
-      <div class="col-lg-3 mt-lg-2">
-        <div class="img">
-          <img src="img/e1.jpg" alt="ssds" class="rotate cardwidth" >
-        </div>
-      </div>
-      <div class="col-lg-3">
-        <p>25 Feburay 2018</p>
-                    <h4>The Universe Through A Chilid S Eyes</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia ipsum laborum sequi praesentium
-                      recusandae
-                      rerum veniam exercitationem </p>
-      </div>
-      <div class="col-lg-3 mt-lg-2">
-        <div class="img">
-          <img src="img/e2.jpg" alt="ssds" class="rotate cardwidth" >
-        </div>
-      </div>
-      <div class="col-lg-3">
-        <p>25 Feburay 2018</p>
-                    <h4>The Universe Through A Chilid S Eyes</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia ipsum laborum sequi praesentium
-                      recusandae
-                      rerum veniam exercitationem </p>
-      </div>
-    </div>
-    <div class="row mt-lg-5">
-      <div class="col-lg-3 mt-lg-2">
-        <div class="img">
-          <img src="img/e1.jpg" alt="ssds" class="rotate cardwidth" >
-        </div>
-      </div>
-      <div class="col-lg-3">
-        <p>25 Feburay 2018</p>
-                    <h4>The Universe Through A Chilid S Eyes</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia ipsum laborum sequi praesentium
-                      recusandae
-                      rerum veniam exercitationem </p>
-      </div>
-      <div class="col-lg-3 mt-lg-2">
-        <div class="img">
-          <img src="img/e2.jpg" alt="ssds" class="rotate cardwidth" >
-        </div>
-      </div>
-      <div class="col-lg-3">
-        <p>25 Feburay 2018</p>
-                    <h4>The Universe Through A Chilid S Eyes</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia ipsum laborum sequi praesentium
-                      recusandae
-                      rerum veniam exercitationem </p>
-      </div>
-    </div>
-    <!-- ====================================ancherlink button ============================================== -->
+       <!-- ====================================ancherlink button ============================================== -->
     <div class="row mt-lg-5">
       <div class="col-lg-12 ">
         <ul style="list-style-type: none;">
@@ -195,92 +204,91 @@
         </ul>
       </div>
     </div>
-    <!-- ===========================main footer============================================================== -->
-      <!-- ===========================================Orange Part================================================= -->
-      <div class="row warning py-lg-5 mt-lg-5 ">
-        <div class="col-lg-8 offset-lg-1 text-white  ">
-          <h2>Not Yet Satisfied With Our Treand?</h2>
-        </div>
-        <div class="col-lg-3 mt-lg-3">
-          <a href="#" class="  bg-white text-dark border-0 py-2 text-decoration-none px-4 value ms-lg-auto">VIEW OUR BLOG
-          </a>
-        </div>
-      </div>
-  
-  <!-- =======================================black Part=================================================== -->
-      <div class="row width">
-        <div class="row  ">
-          <div class="col-lg-3 offset-lg-1  " style="width:160px;">
-            <h6 class="text-white mgtop">Top Products</h6>
-            <br>
-            <ul class="text p-0 m-0">
-              <li><a href="#" class="text text1">Managed Website</a></li>
-              <li><a href="#" class="text text1">Managed Repulation</a></li>
-              <li><a href="#" class="text text1">Power Tools</a></li>
-              <li><a href="#" class="text text1">Marketing Services</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-2" style="width:160px">
-            <h6 class="text-white mgtop">Quick links</h6>
-            <br>
-            <ul class="text p-0 m-0">
-              <li><a href="#" class="text text1">Jobs</a></li>
-              <li><a href="#" class="text text1">Brand Assets</a></li>
-              <li><a href="#" class="text text1">Invester Relations</a></li>
-              <li><a href="#" class="text text1">Terms and Services</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-2">
-            <h6 class="text-white mgtop">Features</h6>
-            <br>
-            <ul class="text p-0 m-0">
-              <li><a href="#" class="text text1">Jobs</a></li>
-              <li><a href="#" class="text text1">Invester Relations</a></li>
-              <li><a href="#" class="text text1">Managed Website</a></li>
-              <li><a href="#" class="text text1">Terms and Services</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-2">
-            <h6 class="text-white mgtop">Resources</h6>
-            <br>
-            <ul class="text p-0 m-0">
-              <li><a href="#" class="text text1">Guides</a></li>
-              <li><a href="#" class="text text1">Reserch</a></li>
-              <li><a href="#" class="text text1">Experts</a></li>
-              <li><a href="#" class="text text1">Agencies</a></li>
-            </ul>
-          </div>
-          <div class="col-auto">
-            <h6 class="text-white mgtop">Newsletter</h6>
-            <br>
-            <p class="text">Stay update with our latest</p>
-            <form action="#" method="get">
-              <input type="email" placeholder="Enter Your Email Address" class="px-lg-3 py-lg-2 mt-lg-1">
-              <button type="button" class="btn btn-warning py-lg-2"><i class="fa-solid fa-arrow-right"></i></button>
-            </form>
-          </div>
-        </div>
-        <!-- ===========================================footer============================================ -->
-        <footer>
-          <div class="row">
-            <div class="col-lg-7 offset-lg-1">
-              <p class="text-white">Copyright ©2022 All rights reserved | This template is made with by Colorlib </p>
-            </div>
-            <div class="col-lg-2 ms-lg-auto">
-              <a href="#"><i class="fa-brands fa-square-facebook fs-4"></i></a>
-              <a href="#"><i class="fa-brands fa-twitter fs-4"></i></a>
-              <a href="#"><i class="fa-brands fa-google fs-4"></i></a>
-            </div>
-        </footer>
-      </div>
-  
     </div>
+    <!-- ===========================================Orange Part================================================= -->
+ <div class="container-fluid">
+  <div class="row warning py-lg-5 mt-lg-5 ">
+    <div class="col-lg-8 offset-lg-1 text-white  ">
+      <h2>Not Yet Satisfied With Our Treand?</h2>
     </div>
-    </div>
-    </div>
-    </div>
+    <div class="col-lg-3 mt-lg-3">
+      <a href="#" class="  bg-white text-dark border-0 py-2 text-decoration-none px-4 value ms-lg-auto">VIEW OUR
+        BLOG
+      </a>
     </div>
   </div>
+</div>
+  <!-- =======================================black Part=================================================== -->
+  <div class="container-fluid">
+    <div class="row width p-lg-0">
+      <div class="row  ">
+        <div class="col-lg-3 offset-lg-1  " style="width:160px;">
+          <h6 class="text-white mgtop">Top Products</h6>
+          <br>
+          <ul class="text p-0 m-0">
+            <li><a href="#" class="text text1">Managed Website</a></li>
+            <li><a href="#" class="text text1">Managed Repulation</a></li>
+            <li><a href="#" class="text text1">Power Tools</a></li>
+            <li><a href="#" class="text text1">Marketing Services</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2" style="width:160px">
+          <h6 class="text-white mgtop">Quick links</h6>
+          <br>
+          <ul class="text p-0 m-0">
+            <li><a href="#" class="text text1">Jobs</a></li>
+            <li><a href="#" class="text text1">Brand Assets</a></li>
+            <li><a href="#" class="text text1">Invester Relations</a></li>
+            <li><a href="#" class="text text1">Terms and Services</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2">
+          <h6 class="text-white mgtop">Features</h6>
+          <br>
+          <ul class="text p-0 m-0">
+            <li><a href="#" class="text text1">Jobs</a></li>
+            <li><a href="#" class="text text1">Invester Relations</a></li>
+            <li><a href="#" class="text text1">Managed Website</a></li>
+            <li><a href="#" class="text text1">Terms and Services</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2">
+          <h6 class="text-white mgtop">Resources</h6>
+          <br>
+          <ul class="text p-0 m-0">
+            <li><a href="#" class="text text1">Guides</a></li>
+            <li><a href="#" class="text text1">Reserch</a></li>
+            <li><a href="#" class="text text1">Experts</a></li>
+            <li><a href="#" class="text text1">Agencies</a></li>
+          </ul>
+        </div>
+        <div class="col-auto">
+          <h6 class="text-white mgtop">Newsletter</h6>
+          <br>
+          <p class="text">Stay update with our latest</p>
+          <form action="#" method="get">
+            <input type="email" placeholder="Enter Your Email Address" class="px-lg-3 py-lg-2 mt-lg-1">
+            <button type="button" class="btn btn-warning py-lg-2"><i class="fa-solid fa-arrow-right"></i></button>
+          </form>
+        </div>
+      </div>
+      <!-- ===========================================footer============================================ -->
+      <footer>
+        <div class="row">
+          <div class="col-lg-7 offset-lg-1">
+            <p class="text-white">Copyright ©2022 All rights reserved | This template is made with by Colorlib </p>
+          </div>
+          <div class="col-lg-2 ms-lg-auto">
+            <a href="#"><i class="fa-brands fa-square-facebook fs-4 text-white"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter fs-4 text-white"></i></a>
+            <a href="#"><i class="fa-brands fa-google fs-4 text-white"></i></a>
+          </div>
+        </div>  
+      </footer>
+    </div>
+  </div>
+  </div>
+
 
 
 
