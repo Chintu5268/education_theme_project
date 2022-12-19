@@ -276,14 +276,23 @@ border: #f7631b !important;
 
   } 
  /* =======================================Events=======================================================  */
- /* .cardwidth{
+ .bgimg5{
+  background-image: url("img/about.avif");
+  height: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: opacity(0.9);
+  
+  }
+ .cardwidth{
   width: 250px !important;
  }
 .mgtopeventcard{
   margin-top: 250px;
-} */
+}
 /* =================================gallary======================================================= */
-/* .mggalary{
+.mggalary{
   margin-top: 300px;
 }
 .gimg1{
@@ -293,50 +302,83 @@ border: #f7631b !important;
 .gimg:hover{
   color: #f7631b !important;
   
-} */
+}
 /* ===========================================blogHome========================================= */
-/* .bigbanner{
- 
+.bigbanner{
+  background-image: url(img/beingbanner.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 700px;
-  width: 100%;
+  height: 500px;
+  
 }
 
-.ml{
-  margin-left: 250px !important;
+.mysticky{
+  position: fixed !important;
+  top: 0 !important;
+  padding-left: 100px !important;
+}
+.mtlb{
+  margin-top: 300px;
+  font-size: 50px;
+  
 }
 .myanchor{
   text-decoration: none;
   background-color: #fff;
-  
-
 }
 .myanchor:hover{
  color: #fff;
-opacity: 0.5;
+opacity: 0.2;
 border: solid white;
 }
-.mttop{
-  margin-top: 200px;
+.imgmt{
+  margin-top: 250px;
 }
-.box{
-  width: 90%;
+.bhomeimg{
+  background-image: url(img/cat-widget1.jpg.webp);
+  background-size: cover;
+  background-position: center;
+  height: 220px;
+}
+.bhomeimg2{
+  background-image: url(img/cat-widget2.jpg.webp);
+  background-size: cover;
+  background-position: center;
+  height: 220px;
+}
+.bhomeimg3{
+  background-image: url(img/cat-widget3.jpg.webp);
+  background-size: cover;
+  background-position: center;
+  height: 220px;
+}
+.overlay-lg{
+  position:relative;
+  top: 25px;
+  left: 28px;
+  width: 85%;
   height: 80%;
-  background-color: black;
-  margin: 20px auto;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
   
 }
-.boxancher{
-  text-decoration: none;
-  margin-left:115px !important;
-  padding-top:5px !important;
-  opacity: 1;
+.overlay-lg:hover{
+  background-color: #eb8a0c80;
 
 }
-.boxancher2{
+.imghead{
+  margin-left: 32%;
   text-decoration: none;
-  margin-left: 50px !important;
-  opacity: 0.9;
-} */
+  font-size: 20px;
+  margin-top: 12%;
+  display: inline-block;
+}
+.imghead2{
+  margin-left: 18%;
+  text-decoration: none;
+}
+.feture1{
+  width: 600px;
+  height: 300px;
+}
