@@ -199,8 +199,9 @@ background-position: center;
 }
 /* black part */
 .width{
-  height: 400px !important;
+  height: 700px !important;
   background-color: #04091e !important;
+  
 }
 
 .mgtop{
@@ -312,7 +313,9 @@ border: #f7631b !important;
   height: 500px;
   
 }
-
+.bgcolor{
+  background-color: #f5f5fa;
+}
 .mysticky{
   position: fixed !important;
   top: 0 !important;
@@ -382,3 +385,64 @@ border: solid white;
   width: 600px;
   height: 300px;
 }
+.feture2{
+  width: 600px !important ;
+  height: 300px;
+}
+.imgbtn:hover{
+background-color: #f7631b !important;
+color: #fff !important;
+}
+
+.rounded{
+ 
+  margin: auto;
+  border-top-left-radius: 20px !important;
+  border-bottom-left-radius: 20px !important;
+}
+.rounded2{
+border-top-right-radius: 20px !important;
+border-bottom-right-radius: 20px !important;
+}
+.ms-lg-6{
+  margin-left: 55px !important;
+}
+.mla{
+  margin-left: 65px !important;
+}
+.mla2{
+  margin-left: 50px !important;
+}
+.img2small{
+  display: inline !important;
+}
+.dspace{
+  width: 250px;
+  height: 200px;
+  background-color: #fff;
+
+  margin: auto;
+  
+}
+.prop{
+  display: block;
+  text-decoration: none;
+  font-size: 25px;
+  margin-left: 4%;
+  color: #d2d2d2;
+  padding-top: 25%;
+}
+
+.row1{
+  display: block;
+  font-size: 24px;
+  border-bottom: dotted;
+  border-color: #d2d2d2;
+ margin-top: 15px;
+ color: #776549;
+}
+.row1:hover{
+  border-bottom: dotted;
+  color: #f7631b;
+}
+
