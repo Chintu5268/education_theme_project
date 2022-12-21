@@ -316,16 +316,19 @@ border: #f7631b !important;
 .bgcolor{
   background-color: #f5f5fa;
 }
+/* fixing navbar */
 .mysticky{
   position: fixed !important;
   top: 0 !important;
   padding-left: 100px !important;
 }
+/* heading top margin */
 .mtlb{
   margin-top: 300px;
   font-size: 50px;
   
 }
+/* remove anchor  */
 .myanchor{
   text-decoration: none;
   background-color: #fff;
@@ -335,9 +338,11 @@ border: #f7631b !important;
 opacity: 0.2;
 border: solid white;
 }
+/* top margin of img */
 .imgmt{
   margin-top: 250px;
 }
+/* background images */
 .bhomeimg{
   background-image: url(img/cat-widget1.jpg.webp);
   background-size: cover;
@@ -370,6 +375,7 @@ border: solid white;
   background-color: #eb8a0c80;
 
 }
+/* overlay image position */
 .imghead{
   margin-left: 32%;
   text-decoration: none;
@@ -381,6 +387,7 @@ border: solid white;
   margin-left: 18%;
   text-decoration: none;
 }
+/* width and height of main image */
 .feture1{
   width: 600px;
   height: 300px;
@@ -394,8 +401,8 @@ background-color: #f7631b !important;
 color: #fff !important;
 }
 
-.rounded{
- 
+/* rounding bar */
+.rounded{ 
   margin: auto;
   border-top-left-radius: 20px !important;
   border-bottom-left-radius: 20px !important;
@@ -416,14 +423,16 @@ border-bottom-right-radius: 20px !important;
 .img2small{
   display: inline !important;
 }
+/* imgae width and height */
 .dspace{
   width: 250px;
   height: 200px;
   background-color: #fff;
-
   margin: auto;
   
 }
+/* imgae width and height */
+
 .prop{
   display: block;
   text-decoration: none;
@@ -432,7 +441,7 @@ border-bottom-right-radius: 20px !important;
   color: #d2d2d2;
   padding-top: 25%;
 }
-
+/* setting margin of dooted point */
 .row1{
   display: block;
   font-size: 24px;
@@ -445,4 +454,69 @@ border-bottom-right-radius: 20px !important;
   border-bottom: dotted;
   color: #f7631b;
 }
+.bg-warning{
+  background-color:#f7631b !important ;
+}
+/* ================================blog home=========================================================== */
+.bigbanner2{
+  background-image: url(img/beingbanner.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 5px;
+}
+.mg1{
+  margin-top: 150px;
+  font-size: 65px;
+}
+.mg2{
+  margin-top: 300px !important;
+}
+.details{
+  width:90px ;
+  height:90px ;
+}
+.bgbody{
+  background-color: #f5f5fa;
+  
+}
+.mar{
+  margin-left: 40%;
+  margin-top: 15%;
+  font-size: 20px;
+}
+.mar:hover{
+background-color:#f7631b !important;
+color: #fff !important;
+}
+.mbt{
+  margin-left: 5%;
+}
+.mbt:hover{
+  background-color: #fff !important;
+  border:1px solid #f7631b !important;
+}
+/* ====================================COurses details================================= */
+.head{
+  margin-top: 200px !important;
+  font-size: 75px;
+}
+.imgmr{
+  margin-top: 180px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  height: 350px;
+  
+  
+}
+.enrol{
+  
+  text-decoration: none;
+  background-color:black;
+  color: #fff;
+  margin-left: 20%;
+  margin-top: 10%;
 
+
+}
