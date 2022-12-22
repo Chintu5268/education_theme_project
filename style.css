@@ -199,7 +199,7 @@ background-position: center;
 }
 /* black part */
 .width{
-  height: 700px !important;
+  height: 650px !important;
   background-color: #04091e !important;
   
 }
@@ -210,7 +210,7 @@ background-position: center;
 .text{
   text-decoration: none !important;
   list-style-type: none !important;
-  font-size: 14px !important;
+  font-size: 16px !important;
   color: #776549 !important;
   
 }
@@ -496,7 +496,7 @@ color: #fff !important;
   background-color: #fff !important;
   border:1px solid #f7631b !important;
 }
-/* ====================================COurses details================================= */
+/* ====================================Courses details================================= */
 .head{
   margin-top: 200px !important;
   font-size: 75px;
@@ -519,4 +519,103 @@ color: #fff !important;
   margin-top: 10%;
 
 
+}
+/* ============================================Event Detalis============================================= */
+/* banner heading margin */
+.mgr2{
+  margin-left: 36%;
+}
+.eventimg{
+  margin-top: 250px;
+}
+.underimge{
+  text-decoration: none;
+  color: #04091e;
+}
+.imgdetalis{
+  width: 750px;
+  height: 350px;
+}
+/* imgae brands */
+.brandsimg{
+  font-size: 26px;
+ padding: 2px 14px;
+ background-color: blue;
+ color: #fff;
+}
+.brandsimg1{
+  font-size: 26px;
+ background-color: #00c7f8;
+ padding: 2px 10px;
+ color: #fff;
+
+}
+.brandsimg2{
+  font-size: 26px;
+ background-color: #f982aa;
+ padding: 2px 10px;
+ color: #fff;
+}
+.brandsimg3{
+  font-size: 26px;
+ background-color: #0b8eff;
+ padding: 2px 10px;
+ color: #fff;
+}
+/* prew and next btn */
+.prewbtn{
+  text-decoration: none;
+  margin-top: 10px;
+  background-color:#f9f9ff;
+  
+}
+.prewbtn:hover{
+  background-color:#f7631b;
+ color: #fff !important;
+
+
+}
+/* table height */
+.tbh{
+  height: 45px !important;
+  font-size: 24px;
+  
+}
+/* ===========================================elements==================================== */
+.hmr{
+  margin-top: 200px;
+}
+.heightimg{
+  height: 250px;
+  width: 100%;
+}
+.form-check-reverse{
+ 
+  font-size: 25px;
+}
+.checkbox{
+  font-size: 25px;
+}
+/* ===================================Contact================================================= */
+.maptop{
+  margin-top: 200px;
+ 
+}
+.fasm{
+  font-size: 25px !important;
+}
+.fasm2{
+  font-size: 18px;
+
+}
+.sendbtn{
+  text-decoration: none;
+  background-color:#f7631b;
+  margin-left: 80%;
+  
+}
+.sendbtn:hover{
+  background-color: #fff;
+  border: 1px solid #f7631b !important;
+  color: #f7631b !important;
 }
