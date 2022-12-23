@@ -17,9 +17,14 @@ filter: opacity(0.9);
   font-size: 50px !important;
 }
 
+.orange2{
+  width: 100% !important;
+  height:70px !important;
+  margin: 0 0 0 0;
+}
 /* card margin top */
 .mg{
-  margin-top: 109px !important;
+  margin-top: 171px !important;
 }
 .bannerbtn{
   background-color: #f7631b;
@@ -129,7 +134,8 @@ width: 100%;
 }
 /* card img prporty */
 .rotate{
-  width: 70%;
+  width: 120%;
+  height: 220px;
   transition-duration:0.5s;
 }
 .rotate:hover{
@@ -217,20 +223,96 @@ background-position: center;
 .text1:hover{
   color: #f7631b !important;
 }
-
-/* ===============================================About=========================================================== */
- .bgimg3{
-    background-image: url("img/about.avif");
-    height: 455px;
+/* ==========================================responsive======================================= */
+@media only screen and (min-width:768px) and ( max-width:991px) {
+  .bgimg{
+    background-image: url("img/banner5.avif");
+    height: 480px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     filter: opacity(0.9);
     
     }
+    .mgc{
+     margin-top: -18px !important; 
+    }
+  /* font size of banner heading */
+ .fsm-1{
+   font-size: 52px !important;
+   margin-top: 1px !important;
+ }
+
+/* link hover  */
+.bannerbtn:hover{
+  color: orange!important;
+  background-color: none !important;
   
+}
+  /* card margin top */
+.mg{
+  margin-top: 6px !important;
+  width: 100% !important;
+}
+
+.orange2{
+  width: 100% !important;
+  height:70px !important;
+  margin: 180px 0 0 0;
+  
+}
+/* form margin  */
+
+.pwidth{
+  width: 140% !important;
+}
+.dnone{
+  display: none !important;
+}
+.pbwidth{
+  width: 100% !important;
+}
+.orgheight{
+  height: 250px;
+}
+.fs{
+  font-size: 40px !important;
+  margin-left: 50px;
+}
+.value{
+  margin-left: 55px;
+}
+.width{
+  height: 1000px !important;
+  background-color: #04091e !important;
+  
+}
+.myoff{
+  margin-left: 15%;
+}
+
+ }
+
+
+/* ===============================================About=========================================================== */
+ .bgimg3{
+    background-image: url("img/about.avif");
+    height: 1px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: opacity(0.9);
+    
+    }
+  .headr{
+    font-size: 70px !important;
+    margin-top: 135px;
+  }
   .mgr{
     margin-left: 42%;
+  }
+  .cdmrgin{
+    margin-top: 50px;
   }
   .orange2:hover{
     background-color: #f7631b !important;
@@ -242,7 +324,7 @@ background-position: center;
     font-size: 25px;
   }
   .mabg{
-    margin-top: 170px !important;
+    margin-top: 220px !important;
   }
   /* accordain bg color */
    .orange{
@@ -276,6 +358,28 @@ color: #f7631b !important;
 border: #f7631b !important;
 
   } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  /* =======================================Events=======================================================  */
  .bgimg5{
   background-image: url("img/about.avif");
