@@ -15,20 +15,21 @@ filter: opacity(0.9);
 /* font size of banner heading */
 .fsm-1{
   font-size: 50px !important;
+  margin-top: -250px;
 }
 
 .orange2{
   width: 100% !important;
   height:70px !important;
-  margin: 0 0 0 0;
+  margin: 130px 0 0 0;
 }
 /* card margin top */
 .mg{
-  margin-top: 171px !important;
+  margin-top: 340px !important;
 }
 .bannerbtn{
   background-color: #f7631b;
-  margin-left: 0px;
+  padding-right: 10px;
 }
 /* link hover  */
 .bannerbtn:hover{
@@ -122,8 +123,6 @@ background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
 width: 100%;
-
-
 
 } 
 /* form margin  */
@@ -234,9 +233,7 @@ background-position: center;
     filter: opacity(0.9);
     
     }
-    .mgc{
-     margin-top: -18px !important; 
-    }
+   
   /* font size of banner heading */
  .fsm-1{
    font-size: 52px !important;
@@ -251,7 +248,7 @@ background-position: center;
 }
   /* card margin top */
 .mg{
-  margin-top: 6px !important;
+  margin-top: -175px !important;
   width: 100% !important;
 }
 
@@ -277,10 +274,10 @@ background-position: center;
 }
 .fs{
   font-size: 40px !important;
-  margin-left: 50px;
+ 
 }
 .value{
-  margin-left: 52px;
+  margin-left: 12px;
 }
 .width{
   height: 1000px !important;
@@ -288,10 +285,116 @@ background-position: center;
   
 }
 .myoff{
-  margin-left: 15%;
+  margin-left: 10%;
 }
 
  }
+
+ /* ===============================================small device======================================= */
+ @media only screen and (min-width: 576px)and (max-width:767px) { 
+  .bgimg{
+    background-image: url("img/banner5.avif");
+    height: 480px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: opacity(0.9);
+    
+    }
+    .mg{
+      margin-top: 165px !important;
+    }
+    
+    .mgc{
+      margin-top: -1px !important;
+      width: 100%; 
+     }
+    .fsm-1{
+      font-size: 48px !important;
+      margin-top: -175px !important;
+    }
+    .bannerbtn:hover{
+      color: orange!important;
+      background-color: none !important;
+      
+    }
+.bannerbtn{
+  background-color: #f7631b;
+  margin-left: 0px;
+}
+.orange2small{
+  width: 100% !important;
+  height:70px !important;
+  margin: 180px 0 0 0;
+  
+}
+.imgcardwidth{
+  width: 100% !important;
+  
+}
+
+.famargin{
+  position: absolute;
+  top:170px;
+  
+}
+.famargin2{
+  position: absolute;
+  top:170px;
+  left:60px;
+}
+.famargin3{
+  position: absolute;
+  top:165px;
+  left:470px;
+}
+.pwidth{
+  width: 100% !important;
+}
+.bgimg2{
+  background-image: url("img/Newbanner.jpg");
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  margin: 0 auto;
+  
+  } 
+  .dnone{
+    display: none !important;
+  }
+
+  .orgheight{
+    height: 250px;
+  }
+  .fs{
+    margin-top: 50px;
+    font-size: 50px !important;
+    margin-left: 60px;
+   
+  }
+  .value{
+    margin-left: 18px !important;
+  }
+  .width{
+    height: 1000px !important;
+    background-color: #04091e !important;
+    
+  }
+  .myoff{
+    margin-left: 15%;
+  }
+  }
+
+
+
+
+
+
+
+
+
 
 
 /* ===============================================About=========================================================== */
