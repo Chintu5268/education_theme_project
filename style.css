@@ -752,6 +752,48 @@ margin-top: 50px;
   height: 350px !important;
 }
 
+/* ==========================================responsive======================================= */
+@media only screen and (min-width:768px) and (max-width:991px) {
+ 
+  .bgimg3 {
+    background-image: url("img/about.avif");
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: opacity(0.9);
+  
+  }
+  .headr {
+    font-size: 90px !important;
+    margin-top: 55px;
+  }
+  
+  .mgr {
+    margin-left: 35%;
+    font-size: 35px;
+  }
+
+  .cdmrgin {
+    margin-top: -175px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ================================================courses============================================= */
 
 .bgimg4 {
