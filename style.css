@@ -291,7 +291,7 @@ background-position: center;
  }
 
  /* ===============================================small device======================================= */
- @media only screen and (min-width: 576px)and (max-width:767px) { 
+ @media only screen and (max-width:767px) { 
   .bgimg{
     background-image: url("img/banner5.avif");
     height: 480px;
