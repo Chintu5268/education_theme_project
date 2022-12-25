@@ -268,71 +268,72 @@
     filter: opacity(0.9);
 
   }
+/* font size of banner heading */
+.fsm-1 {
+  font-size: 45px !important;
+  margin-top: 0px !important;
+}
+/* link hover  */
+.bannerbtn:hover {
+  color: orange !important;
+  background-color: none !important;
 
-  /* font size of banner heading */
-  .fsm-1 {
-    font-size: 45px !important;
-    margin-top: 0px !important;
-  }
-
-  /* link hover  */
-  .bannerbtn:hover {
-    color: orange !important;
-    background-color: none !important;
-
-  }
+}
 .mgc{
   margin-top: -120px;
+  
+  } 
+/* card margin top */
+.mg {
+  margin-top: 50px !important;
+  width: 100% !important;
 }
-  /* card margin top */
-  .mg {
-    margin-top: 50px !important;
-    width: 100% !important;
-  }
+.orange2 {
+  width: 100% !important;
+  height: 70px !important;
+  margin: 180px 0 0 0;
 
-  .orange2 {
-    width: 100% !important;
-    height: 70px !important;
-    margin: 180px 0 0 0;
+}
+/* form margin  */
 
-  }
+.pwidth {
+  width: 100% !important;
+}
 
-  /* form margin  */
+.dnone {
+  display: none !important;
+}
+.pbwidth {
+  width: 100% !important;
+}
+.orgheight {
+  height: 250px;
+}
 
-  .pwidth {
-    width: 140% !important;
-  }
+.fs {
+  font-size: 40px !important;
 
-  .dnone {
-    display: none !important;
-  }
+}
 
-  .pbwidth {
-    width: 100% !important;
-  }
+.value {
+  margin-left: 0px;
+}
 
-  .orgheight {
-    height: 250px;
-  }
+.width {
+  height: 1000px !important;
+  background-color: #04091e !important;
 
-  .fs {
-    font-size: 40px !important;
+}
 
-  }
+.myoff {
+  margin-left: 10%;
+}
 
-  .value {
-    margin-left: 0px;
-  }
 
-  .width {
-    height: 1000px !important;
-    background-color: #04091e !important;
 
-  }
 
-  .myoff {
-    margin-left: 10%;
-  }
+
+
 
 }
 
@@ -557,15 +558,15 @@ margin-top: 50px;
 
 }
 
-.myoff {
+/* .myoff {
   margin-left: 15%;
 }
 .myoffmymrgin{
-  margin-left: 60px;
+  margin-left: 20px;
 }
 .newmrgin{
-margin-left: 60px;
-}
+margin-left: 30px;
+} */
 
 
 
@@ -783,13 +784,22 @@ margin-top: 50px;
   
 }
 
+/* ============================for extra samll------------------------------- */
+@media only screen and (min-width:575px)and (max-width:767px) {
+  .bgimg3 {
+    background-image: url("img/about.avif");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: opacity(0.9);
+  
+  }
 
 
 
 
-
-
-
+}
 
 
 
