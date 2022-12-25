@@ -268,66 +268,80 @@
     filter: opacity(0.9);
 
   }
-/* font size of banner heading */
-.fsm-1 {
-  font-size: 45px !important;
-  margin-top: 0px !important;
-}
-/* link hover  */
-.bannerbtn:hover {
-  color: orange !important;
-  background-color: none !important;
 
-}
-.mgc{
-  margin-top: -120px;
-  
-  } 
-/* card margin top */
-.mg {
-  margin-top: 50px !important;
-  width: 100% !important;
-}
-.orange2 {
-  width: 100% !important;
-  height: 70px !important;
-  margin: 180px 0 0 0;
+  /* font size of banner heading */
+  .fsm-1 {
+    font-size: 45px !important;
+    margin-top: 0px !important;
+  }
 
-}
-/* form margin  */
+  /* link hover  */
+  .bannerbtn:hover {
+    color: orange !important;
+    background-color: none !important;
 
-.pwidth {
-  width: 100% !important;
-}
+  }
 
-.dnone {
-  display: none !important;
-}
-.pbwidth {
-  width: 100% !important;
-}
-.orgheight {
-  height: 250px;
-}
+  .mgc {
+    margin-top: -120px;
 
-.fs {
-  font-size: 40px !important;
+  }
 
-}
+  /* card margin top */
+  .mg {
+    margin-top: 50px !important;
+    width: 100% !important;
+  }
 
-.value {
-  margin-left: 0px;
-}
+  .orange2 {
+    width: 100% !important;
+    height: 70px !important;
+    margin: 180px 0 0 0;
+    background-color:#f7631b !important;
 
-.width {
-  height: 1000px !important;
-  background-color: #04091e !important;
+  }
 
-}
+  /* cardtop margin */
+  .mtt {
+    margin-top: 185px !important;
+  }
 
-.myoff {
-  margin-left: 10%;
-}
+  /* form margin  */
+
+  .pwidth {
+    width: 100% !important;
+  }
+
+  .dnone {
+    display: none !important;
+  }
+
+  .pbwidth {
+    width: 100% !important;
+  }
+
+  .orgheight {
+    height: 250px;
+  }
+
+  .fs {
+    font-size: 40px !important;
+
+  }
+
+  .value {
+    margin-left: 0px;
+  }
+
+  .width {
+    height: 1000px !important;
+    background-color: #04091e !important;
+
+  }
+
+  .myoff {
+    margin-left: 10%;
+  }
 
 
 
@@ -339,114 +353,122 @@
 
 /* ===============================================small device======================================= */
 @media only screen and (min-width: 576px)and (max-width:767px) {
-  .bgimg {
-    background-image: url("img/banner5.avif");
-    height: 480px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    filter: opacity(0.9);
 
-  }
+/* body background img */
+.bgimg {
+  background-image: url("img/banner5.avif");
+  height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: opacity(0.9);
 
-  .mg {
-    margin-top: 165px !important;
-  }
+}
 
-  .mgc {
-    margin-top: -1px !important;
-    width: 100%;
-  }
+/* font size of banner heading */
+.fsm-1 {
+  font-size: 33px !important;
+  margin-top: -60px;
+}
 
-  .fsm-1 {
-    font-size: 45px !important;
-    margin-top: -175px !important;
-  }
+.bannerbtn {
+  background-color: #f7631b;
+  padding-right: 0px;
+  width: 35%;
+  height: 30px;
+}
 
-  .bannerbtn:hover {
-    color: orange !important;
-    background-color: none !important;
+/* card margin top */
+.mg {
+  margin-top: 140px !important;
+}
 
-  }
+.orange2 {
+  width: 100% !important;
+  height: 70px !important;
+  margin: 0px 0 0 0;
+  background-color:#f7631b !important;
 
-  .bannerbtn {
-    background-color: #f7631b;
-    margin-left: 0px;
-  }
+  
+}
 
-  .orange2small {
-    width: 100% !important;
-    height: 70px !important;
-    margin: 180px 0 0 0;
+.orange2small {
+  width: 100% !important;
+  height: 70px !important;
+  margin: 180px 0 0 0;
+  background-color:#f7631b !important;
 
-  }
 
-  .imgcardwidth {
-    width: 100% !important;
+}
 
-  }
+.imgcardwidth {
+  width: 100% !important;
 
-  .famargin {
-    position: absolute;
-    top: 170px;
+}
 
-  }
+/* cardtop margin */
+.mtt {
+  margin-top: 185px !important;
+  font-size: 150px !important;
+}
 
-  .famargin2 {
-    position: absolute;
-    top: 170px;
-    left: 60px;
-  }
+.bgimg2 {
+  background-image: url("img/Newbanner.jpg");
+  height: 1100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
 
-  .famargin3 {
-    position: absolute;
-    top: 165px;
-    left: 470px;
-  }
+.ms-xm-5 {
+  margin-left: 12%;
+  margin-bottom: 10px;
+}
 
-  .pwidth {
-    width: 100% !important;
-  }
+.col-xm-12 {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
-  .bgimg2 {
-    background-image: url("img/Newbanner.jpg");
-    height: 1000px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    margin: 0 auto;
+.col-xm-6 {
+  width: 100%;
+  display: inline-block;
+}
 
-  }
+.pbwidth {
+  width: 100% !important;
+}
 
-  .dnone {
-    display: none !important;
-  }
+.instbtn {
+  margin-left: 28% !important;
+}
 
-  .orgheight {
-    height: 250px;
-  }
+.headingborg {
+  margin-top: 50px;
+}
 
-  .fs {
-    margin-top: 50px;
-    font-size: 50px !important;
-    margin-left: 60px;
+.fs {
+  margin-top: 50px;
+  font-size: 30px !important;
+  margin-left: 15px;
 
-  }
+}
 
-  .value {
-    margin-left: 18px !important;
-  }
+.orgheight {
+  height: 250px;
+}
 
-  .width {
-    height: 1000px !important;
-    background-color: #04091e !important;
+.value {
+  margin-left: 18px !important;
+}
 
-  }
-
-  .myoff {
-    margin-left: 15%;
-  }
+.width {
+  height: 1500px !important;
+  background-color: #04091e !important;
+  display: block;
+}
 }
 
 @media only screen and (min-width:425px)and (max-width:575px) {
@@ -462,11 +484,6 @@
 
   }
 
-  /* navbar */
-  .dark:hover {
-    color: #f7631b !important;
-  }
-
   /* font size of banner heading */
   .fsm-1 {
     font-size: 33px !important;
@@ -480,25 +497,35 @@
     height: 30px;
   }
 
-  .orange2 {
-    width: 100% !important;
-    height: 70px !important;
-    margin: 0px 0 0 0;
-  }
-
   /* card margin top */
   .mg {
     margin-top: 140px !important;
   }
+
+  .orange2 {
+    width: 100% !important;
+    height: 70px !important;
+    margin: 0px 0 0 0;
+  background-color:#f7631b !important;
+
+  }
+
   .orange2small {
     width: 100% !important;
     height: 70px !important;
     margin: 180px 0 0 0;
 
   }
+
   .imgcardwidth {
     width: 100% !important;
 
+  }
+
+  /* cardtop margin */
+  .mtt {
+    margin-top: 185px !important;
+    font-size: 150px !important;
   }
 
   .bgimg2 {
@@ -508,189 +535,59 @@
     background-size: cover;
     background-position: center;
     width: 100%;
-    
-
   }
-  .ms-xm-5{
+
+  .ms-xm-5 {
     margin-left: 12%;
     margin-bottom: 10px;
   }
-.indexsm{
-  display: inline;
-}
-.dnone {
-  display: none !important;
-}
-.col-xm-12{
-  width: 100%;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-.col-xm-6{
-  width: 100%;
-  display: inline-block;
-}
-.pbwidth {
-  width: 100% !important;
-}
-.instbtn{
-  margin-left: 28% !important;
-}
-.headingborg{
-margin-top: 50px;
-}
-.fs {
-  margin-top: 50px;
-  font-size: 30px !important;
-  margin-left: 15px;
 
+  .col-xm-12 {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .col-xm-6 {
+    width: 100%;
+    display: inline-block;
+  }
+
+  .pbwidth {
+    width: 100% !important;
+  }
+
+  .instbtn {
+    margin-left: 28% !important;
+  }
+
+  .headingborg {
+    margin-top: 50px;
+  }
+
+  .fs {
+    margin-top: 50px;
+    font-size: 30px !important;
+    margin-left: 15px;
+
+  }
+
+  .orgheight {
+    height: 250px;
+  }
+
+  .value {
+    margin-left: 18px !important;
+  }
+
+  .width {
+    height: 1500px !important;
+    background-color: #04091e !important;
+    display: block;
+  }
 }
-.orgheight {
-  height: 250px;
-}
-.value {
-  margin-left: 18px !important;
-}
 
-.width {
-  height: 1500px !important;
-  background-color: #04091e !important;
-
-}
-
-/* .myoff {
-  margin-left: 15%;
-}
-.myoffmymrgin{
-  margin-left: 20px;
-}
-.newmrgin{
-margin-left: 30px;
-} */
-
-
-
-
-
-
-
-}
 /* ============================for extra samll------------------------------- */
-@media only screen and (min-width:320px)and (max-width:425px) {
-
-  /* body background img */
-  .bgimg {
-    background-image: url("img/banner5.avif");
-    height: 550px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    filter: opacity(0.9);
-
-  }
-
-  /* navbar */
-  .dark:hover {
-    color: #f7631b !important;
-  }
-
-  /* font size of banner heading */
-  .fsm-1 {
-    font-size: 33px !important;
-    margin-top: -60px;
-  }
-
-  .bannerbtn {
-    background-color: #f7631b;
-    padding-right: 0px;
-    width: 35%;
-    height: 30px;
-  }
-
-  .orange2 {
-    width: 100% !important;
-    height: 70px !important;
-    margin: 0px 0 0 0;
-  }
-
-  /* card margin top */
-  .mg {
-    margin-top: 140px !important;
-  }
-  .orange2small {
-    width: 100% !important;
-    height: 70px !important;
-    margin: 180px 0 0 0;
-
-  }
-  .imgcardwidth {
-    width: 100% !important;
-
-  }
-
-  .bgimg2 {
-    background-image: url("img/Newbanner.jpg");
-    height: 1100px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    
-
-  }
-  .ms-xm-5{
-    margin-left: 12%;
-    margin-bottom: 10px;
-  }
-.indexsm{
-  display: inline;
-}
-.dnone {
-  display: none !important;
-}
-.col-xm-12{
-  width: 100%;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-.col-xm-6{
-  width: 100%;
-  display: inline-block;
-}
-.pbwidth {
-  width: 100% !important;
-}
-.instbtn{
-  margin-left: 28% !important;
-}
-.headingborg{
-margin-top: 50px;
-}
-.fs {
-  margin-top: 50px;
-  font-size: 30px !important;
-  margin-left: 15px;
-
-}
-.orgheight {
-  height: 250px;
-}
-.value {
-  margin-left: 18px !important;
-}
-
-.width {
-  height: 1500px !important;
-  background-color: #04091e !important;
-
-}
-
-.myoff {
-  margin-left: 15%;
-}
-.myoffmymrgin{
-  margin-left: 60px;
-}
 
 
 
@@ -698,8 +595,6 @@ margin-top: 50px;
 
 
 
-
-}
 
 
 
@@ -755,7 +650,7 @@ margin-top: 50px;
 
 /* ==========================================responsive======================================= */
 @media only screen and (min-width:768px) and (max-width:991px) {
- 
+
   .bgimg3 {
     background-image: url("img/about.avif");
     height: 200px;
@@ -763,13 +658,14 @@ margin-top: 50px;
     background-size: cover;
     background-position: center;
     filter: opacity(0.9);
-  
+
   }
+
   .headr {
     font-size: 90px !important;
     margin-top: 55px;
   }
-  
+
   .mgr {
     margin-left: 35%;
     font-size: 35px;
@@ -781,7 +677,7 @@ margin-top: 50px;
 
 
 
-  
+
 }
 
 /* ============================for extra samll------------------------------- */
@@ -793,7 +689,7 @@ margin-top: 50px;
     background-size: cover;
     background-position: center;
     filter: opacity(0.9);
-  
+
   }
 
 
