@@ -447,7 +447,7 @@
   display: block;
 }
 }
-@media screen and (min-width:375px)and (max-width:424px) {
+@media screen and (min-width:320px)and (max-width:424px) {
   .bgimg {
     background-image: url("img/banner5.avif");
     height: 500px;
@@ -551,23 +551,7 @@
 
 }
 
-@media only screen and(min-width:320px)and(max-width:374px) {
-  .bgimg {
-    background-image: url("img/banner5.avif");
-    height: 550px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    filter: opacity(0.9);
 
-  }
-  .fixed-sm-top {
-    position: sticky;
-    top: 0;
-    padding: 5px 15px;
-  }
-
-}
 
 /* ===============================================About=========================================================== */
 .bgimg3 {
