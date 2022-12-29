@@ -247,17 +247,10 @@ margin: 12rem 0;
   .footerlink{
     width: 18rem;
   }
-  
 
- 
-
- 
-
-
- 
 
 }
-@media screen and (min-width: 425px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .bgimg {
     background-image: url("img/banner5.avif");
     height: 700px;
@@ -283,7 +276,9 @@ margin: 12rem 0;
   .orange2 {
     width: 100% !important;
     height: 70px !important;
+    margin: 130px 0 0 0 !important;
     background-color: #f7631b !important;
+
   }
  
   .imgcardwidth {
@@ -303,103 +298,6 @@ margin: 12rem 0;
   width: 18rem !important;
 }
   
-}
-@media screen and (min-width: 375px) and (max-width: 424px) {
-  .bgimg {
-    background-image: url("img/banner5.avif");
-    height: 600px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    filter: opacity(0.9);
-  }
-  .fixed-sm-top {
-    position: sticky;
-    top: 0;
-    padding: 15px 20px;
-  }
-  .mgc {
-    margin-top: 90px !important;
-  }
-
-  .ms-xm-5 {
-    margin-left: 14% !important;
-  }
-
-  .fsm-1 {
-    font-size: 33px !important;
-    margin-top: 30px;
-  }
-  .bannerbtn2 {
-    background-color: #f7631b;
-    padding-right: 0px;
-    width: 35%;
-    height: 30px;
-  }
-  .orange2 {
-    width: 100% !important;
-    height: 70px !important;
-    margin: -5px 0 0 0;
-    background-color: #f7631b !important;
-  }
-
-  .orange2small {
-    width: 100% !important;
-    height: 70px !important;
-    margin: 180px 0 0 0;
-  }
-
-  .imgcardwidth {
-    width: 100% !important;
-  }
-  /* cardtop margin */
-  .mtt {
-    margin-top: 185px !important;
-    font-size: 150px !important;
-  }
-  .bgimg2 {
-    background-image: url("img/Newbanner.jpg");
-    height: 1100px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-  }
-  .col-xm-12 {
-    width: 100%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
-  .pbwidth {
-    width: 100% !important;
-  }
-  .instbtn {
-    margin-left: 28% !important;
-  }
-
-  .headingborg {
-    margin-top: 50px;
-  }
-
-  .fs {
-    margin-top: 50px;
-    font-size: 30px !important;
-    margin-left: 15px;
-  }
-
-  .orgheight {
-    height: 250px;
-  }
-
-  .value {
-    margin-left: 18px !important;
-  }
-
-  .width {
-    height: 1500px !important;
-    background-color: #04091e !important;
-    display: block;
-  }
 }
 
 /* ===============================================About=========================================================== */
