@@ -293,11 +293,7 @@
   background-position: center;
   filter: opacity(0.9);
 }
-/* @media (max-width: 576px) {
-  .bgimg3 {
-    height: 150px;
-  }
-} */
+
 #fontheading{
   font-size: 70px;
   margin-top: 5rem;
@@ -365,9 +361,9 @@
 
 /* ================================================courses============================================= */
 
-.bgimg4 {
+.main-course {
   background-image: url("img/about.avif");
-  height: 20px;
+  height: 0px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
