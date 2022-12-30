@@ -242,12 +242,7 @@
     filter: opacity(0.9);
   }
 
-  .bannerbtn2 {
-    background-color: #f7631b;
-    padding-right: 0px;
-    width: 35%;
-    height: 30px;
-  }
+
   .fontsize {
     font-size: 35px !important;
     margin-top: 50px;
@@ -271,7 +266,7 @@
     margin-top: 50px;
   }
   .homecardmarigin {
-    margin-top: -0.4rem;
+    margin-top: 2.8rem;
   }
   .ftrheading {
     padding: 15px !important;
