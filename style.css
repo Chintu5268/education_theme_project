@@ -285,9 +285,9 @@
 }
 
 /* ===============================================About=========================================================== */
-.bgimg3 {
+.myheader {
   background-image: url("img/about.avif");
-  height: 15px;
+  height: 350px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -298,16 +298,29 @@
     height: 150px;
   }
 } */
-
-.myheader {
-  font-size: 70px !important;
-  margin-top: 15px;
+#fontheading{
+  font-size: 70px;
+  margin-top: 5rem;
+}
+.aboutancher {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+ text-align: center;
 }
 
-.cdmrgin {
-  margin-top: 150px;
+.aboutorange2 {
+  width: 100% !important;
+  height: 70px !important;
+  margin: 130px 0 0 0;
+}
+.aboutorange2:hover {
+  background-color: #f7631b !important;
 }
 
+.homecardmarigin2 {
+  margin-top: -7.4rem;
+}
 .orange3:hover {
   background-color: #f7631b !important;
 }
@@ -318,6 +331,9 @@
   font-size: 25px;
 }
 
+.imgdtailmrging{
+  margin-top: 12rem;
+}
 .mabg {
   margin-top: 220px !important;
 }
@@ -333,67 +349,17 @@
 
 /* ==========================================responsive======================================= */
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  .bgimg3 {
-    background-image: url("img/about.avif");
-    height: 200px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    filter: opacity(0.9);
+  .homecardmarigin2 {
+    margin-top: -7.4rem;
   }
-  .sticky-sm-top {
-    position: sticky;
-    top: 0;
-  }
-  .myheader {
-    font-size: 70px !important;
-    margin-top: 75px;
-  }
-  .cdmrgin {
-    margin-top: 25px;
-    width: 100%;
-  }
-  .orange3 {
-    background-color: #f7631b !important;
-    margin-bottom: 180px;
-  }
-  .mabg {
-    margin-top: 50px !important;
-  }
-  .sticky-sm-top {
-    position: sticky;
-    top: 0;
-  }
-}
 
-/* ============================for extra samll------------------------------- */
-@media (max-width: 767px) {
-  .bgimg3 {
-    background-image: url("img/about.avif");
-    height: 350px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    filter: opacity(0.9);
+  .aboutorange2 {
+    width: 100% !important;
+    height: 70px !important;
+    margin: 8rem 0 0 0;
   }
-  .sticky-sm-top {
-    position: sticky;
-    top: 0;
-  }
-  .myheader {
-    font-size: 60px !important;
-    margin-top: 75px;
-  }
-  .cdmrgin {
-    margin-top: 28px;
-    width: 100%;
-  }
-  .orange3 {
-    background-color: #f7631b !important;
-    margin-bottom: 180px;
-  }
-  .mabg {
-    margin-top: 50px !important;
+  .aboutorange2small{
+    margin-top: 12rem;
   }
 }
 
