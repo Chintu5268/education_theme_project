@@ -363,7 +363,7 @@
 
 .main-course {
   background-image: url("img/about.avif");
-  height: 0px;
+  height: 350px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -407,9 +407,9 @@
 }
 
 /* =======================================Events=======================================================  */
-.bgimg5 {
+.eventbackground {
   background-image: url("img/about.avif");
-  height: 0px;
+  height: 350px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -462,8 +462,17 @@
 }
 
 /* =================================gallary======================================================= */
+.gallarybackground {
+  background-image: url("img/about.avif");
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: opacity(0.9);
+}
+
 .mggalary {
-  margin-top: 300px;
+  margin-top: 9rem;
 }
 
 .gimg1 {
@@ -475,13 +484,46 @@
   color: #f7631b !important;
 }
 
+@media (max-width:991px){
+  .gallarybackground {
+    background-image: url("img/about.avif");
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: opacity(0.9);
+  }
+  .mggalary {
+    margin-top: 12rem !important;
+  }
+  .gimg1 {
+    width: 100%;
+    height: 200px;
+  }
+}
+
+@media (max-width:767px) and(min-width:425px){
+  .gallarybackground {
+    background-image: url("img/about.avif");
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: opacity(0.9);
+  }
+
+
+
+
+
+}
 /* ===========================================blogHome========================================= */
 .bigbanner {
   background-image: url(img/beingbanner.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 500px;
+  height: 650px;
 }
 
 .bgcolor {
@@ -497,7 +539,7 @@
 
 /* heading top margin */
 .mtlb {
-  margin-top: 300px;
+  margin-top: 14rem;
   font-size: 50px;
 }
 
@@ -515,7 +557,7 @@
 
 /* top margin of img */
 .imgmt {
-  margin-top: 250px;
+  margin-top: 25rem;
 }
 
 /* background images */
@@ -649,6 +691,58 @@
 .bg-warning {
   background-color: #f7631b !important;
 }
+@media (max-width:991px){
+  .bigbanner {
+    background-image: url(img/beingbanner.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+  }
+/* heading top margin */
+.mtlb {
+  margin-top: 150px;
+  font-size: 50px;
+}
+.myanchor {
+  text-decoration: none;
+  background-color: #fff;
+  
+}
+/* top margin of img */
+.imgmt {
+  margin-top: 100px;
+}
+/* background images */
+.bhomeimg {
+  background-image: url(img/cat-widget1.jpg.webp);
+  background-size: cover;
+  background-position: center;
+  height: 320px;
+}
+
+.bhomeimg2 {
+  background-image: url(img/cat-widget2.jpg.webp);
+  background-size: cover;
+  background-position: center;
+  height: 320px;
+}
+
+.bhomeimg3 {
+  background-image: url(img/cat-widget3.jpg.webp);
+  background-size: cover;
+  background-position: center;
+  height: 320px;
+}
+
+
+}
+
+
+
+
+
+
 
 /* ================================blog home=========================================================== */
 .bigbanner2 {
