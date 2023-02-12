@@ -613,10 +613,10 @@
   display: inline-block;
 }
 
-.imghead2 {
+/* .imghead2 {
   margin-left: 18%;
   text-decoration: none;
-}
+} */
 
 /* width and height of main image */
 .feture1 {
@@ -758,7 +758,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 5px;
+  height: auto;
 }
 
 .mg1 {
